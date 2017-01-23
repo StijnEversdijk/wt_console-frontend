@@ -1,0 +1,15 @@
+$font--normal: 'Fakt Pro Normal', -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+$font--bold: 'Fakt Pro Medium', -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+
+html,
+body {
+  font-family: $font--normal;
+  font-size: 14px;
+  font-weight: 400;
+  color: $woodsmoke;
+}
+
+.btn {
+  font-family: $font--bold;
+  font-weight: 500;
+}

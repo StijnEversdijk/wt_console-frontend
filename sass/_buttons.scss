@@ -1,0 +1,32 @@
+.btn {
+  padding: 0 18px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+
+  &-40 {
+    height: 40px;
+    line-height: 40px;
+  }
+
+  &-primary {
+    background-color: $dodger-blue;
+    border-color: $dodger-blue;
+
+    &:hover {
+      background-color: $science-blue;
+      border-color: $science-blue;
+    }
+  }
+  &-secondary {
+    background-color: white;
+    border: 1px solid $dodger-blue;
+    color: $dodger-blue;
+    min-width: 120px;
+
+    &:hover {
+      border-color: $science-blue;
+      color: $science-blue;
+    }
+  }
+}
