@@ -1544,22 +1544,26 @@ pre code {
   overflow-y: scroll; }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin-right: auto;
   margin-left: auto; }
 
 @media (min-width: 768px) {
   .container {
-    width: 750px; } }
+    width: 760px; } }
 
 @media (min-width: 992px) {
   .container {
-    width: 970px; } }
+    width: 980px; } }
 
 @media (min-width: 1200px) {
   .container {
-    width: 1170px; } }
+    width: 1180px; } }
+
+@media (min-width: 1320px) {
+  .container {
+    width: 1280px; } }
 
 .container-fluid {
   padding-right: 15px;
@@ -6388,9 +6392,6 @@ body {
       border-color: #0073e5;
       color: #0073e5; }
 
-.filters {
-  margin-top: 40px; }
-
 .float-label-control {
   position: relative; }
   .float-label-control input {
@@ -6517,3 +6518,6 @@ body {
     color: #409FFF; }
     .nav > li.active a:hover {
       color: #0073e5; }
+
+.filter {
+  margin-top: 40px; }
