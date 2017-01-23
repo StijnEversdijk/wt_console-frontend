@@ -6428,13 +6428,12 @@ button.close {
 /*# sourceMappingURL=bootstrap.css.map */
 html,
 body {
-  font-family: "Fakt Pro Normal", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-family: "Fakt Pro", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-size: 14px;
   font-weight: 400;
   color: #17181A; }
 
 .btn {
-  font-family: "Fakt Pro Medium", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   font-weight: 500; }
 
 .btn {
@@ -6445,10 +6444,10 @@ body {
   .btn-40 {
     height: 40px;
     line-height: 40px; }
-  .btn-primary {
+  .btn-primary, .btn-default {
     background-color: #409FFF;
     border-color: #409FFF; }
-    .btn-primary:hover {
+    .btn-primary:hover, .btn-default:hover {
       background-color: #0073e5;
       border-color: #0073e5; }
   .btn-secondary {
@@ -6470,6 +6469,13 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased; }
+
+.container-flex {
+  max-width: 1320px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between; }
 
 .header {
   width: 100%;
@@ -6498,5 +6504,26 @@ body {
     .header__user .user__status {
       margin-right: 20px; }
     .header__user .user__email {
-      font-family: "Fakt Pro Medium", -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
       font-weight: 500; }
+
+.navigation {
+  width: 100%;
+  padding: 0 20px;
+  height: 65px;
+  background-color: #F7F9FA;
+  border-bottom: 1px solid #E8EBED;
+  display: flex;
+  align-items: center; }
+
+.nav li a {
+  color: #484A4D; }
+  .nav li a:hover {
+    color: #17181A;
+    background-color: transparent; }
+
+.nav > li.active {
+  font-weight: 500; }
+  .nav > li.active a {
+    color: #409FFF; }
+    .nav > li.active a:hover {
+      color: #0073e5; }

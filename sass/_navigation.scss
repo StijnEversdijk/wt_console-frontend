@@ -1,0 +1,29 @@
+.navigation {
+  width: 100%;
+  padding: 0 20px;
+  height: 65px;
+  background-color: $aqua-haze;
+  border-bottom: 1px solid $porcelain;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  li a {
+    color: $abbey;
+    &:hover {
+      color: $woodsmoke;
+      background-color: transparent;
+    }
+  }
+
+  > li.active {
+    font-weight: 500;
+    a {
+      color: $dodger-blue;
+      &:hover {
+        color: $science-blue;
+      }
+    }
+  }
+}

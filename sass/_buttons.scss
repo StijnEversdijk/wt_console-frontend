@@ -9,7 +9,8 @@
     line-height: 40px;
   }
 
-  &-primary {
+  &-primary,
+  &-default {
     background-color: $dodger-blue;
     border-color: $dodger-blue;
 
