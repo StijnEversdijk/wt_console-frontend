@@ -1,0 +1,51 @@
+.filters {
+	margin-top: 40px;
+}
+
+.float-label-control {
+	position: relative;
+
+	input {
+		border: 1px solid rgba($silver-sand, 1);
+		background: transparent;
+		border-radius: 5px;
+		width: 100%;
+		padding: 0 0 0 20px;
+		outline: none;
+		color: rgba($woodsmoke,1);
+		height: 50px;
+		transition: padding .1s ease-out, border-color .1s ease-out;
+
+		&:focus {
+			border-color: rgba($science-blue, 1);
+			color: rgba(#00324B,1);
+			padding-top: 18px;
+			&::-webkit-input-placeholder {
+				color: rgba($dodger-blue,0);
+			}
+			+ label {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+	}
+
+	label {
+		font-size: 11px;
+		font-weight: 400;
+		position: absolute;
+		transform: translateY(5px);
+		top: 8px;
+		left: 4px;
+		opacity: 0;
+		color: rgba($oslo-gray,1);
+		padding-left: 17px;
+		padding-top: 2px;
+		transition: transform .1s ease-out, opacity .1s ease-out;
+	}
+
+	::-webkit-input-placeholder {
+		color: rgba($oslo-gray,1);
+	}
+
+}
